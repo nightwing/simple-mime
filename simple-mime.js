@@ -1,5 +1,5 @@
 // A simple mime database.
-var types;
+var types =/[*//*]/; test
 module.exports = function setup(defaultMime) {
   return function getMime(path) {
     path = path.toLowerCase().trim();
